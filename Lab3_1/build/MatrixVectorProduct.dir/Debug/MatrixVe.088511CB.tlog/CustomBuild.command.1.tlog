@@ -1,0 +1,10 @@
+^C:\USERS\PO4KA\PARALLEL\PARALLEL\LAB3_1\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Po4ka/PARALLEL/Parallel/Lab3_1 -BC:/Users/Po4ka/PARALLEL/Parallel/Lab3_1/build --check-stamp-file C:/Users/Po4ka/PARALLEL/Parallel/Lab3_1/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

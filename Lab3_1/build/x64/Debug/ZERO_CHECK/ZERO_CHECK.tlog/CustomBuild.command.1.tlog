@@ -1,0 +1,10 @@
+^C:\USERS\PO4KA\PARALLEL\PARALLEL\LAB3_1\BUILD\CMAKEFILES\3E8B9BFBD5BE87D0279B26EE523D738E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Po4ka/PARALLEL/Parallel/Lab3_1 -BC:/Users/Po4ka/PARALLEL/Parallel/Lab3_1/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Po4ka/PARALLEL/Parallel/Lab3_1/build/MatrixVectorProduct.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
