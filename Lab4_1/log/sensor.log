@@ -1,0 +1,4 @@
+ERROR:root:Camera 1 could not be opened.
+ERROR:root:Camera 0 could not be opened.
+ERROR:root:invalid literal for int() with base 10: 'X'
+ERROR:root:invalid literal for int() with base 10: 'X'
